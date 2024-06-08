@@ -26,17 +26,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <style>
-        .inner{
-            margin-top: 159px ;
-            width: 450px ;
-            box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
-        }
-        .btn{
-            background-color: #696CFF;
-
-        }
-    </style>
+     <link rel="stylesheet" href="{% static 'css/style.css' %}">
   </head>
 
   
@@ -44,7 +34,7 @@
     <div class="container inner bg-light ">
         <div class="container bg-white xinner mt-5 pb-4">
             <div class="formHead text-center py-3">
-                <img style="width: 230px;" src="./logoicon.png" alt="logo">
+                <img style="width: 230px;" src="{% static "img/logoicon.png" %}" alt="logo">
 
             </div>
             <form>
